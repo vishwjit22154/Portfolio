@@ -1,102 +1,75 @@
-<p align="center">
-  <img alt="" src="/.github/assets/cover.png" />
-</p>
+##Contributor Covenant Code of Conduct
 
-<h1 align="center">
-  shadcn-portfolio
-</h1>
+##Our Pledge
 
-<p align="center">
-  <a aria-label="Framework" href="https://nextjs.org">
-    <img alt="" src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=Next.js&labelColor=000">
-  </a>
-  <img alt="" src="https://img.shields.io/github/languages/top/techwithanirudh/shadcn-portfolio?style=for-the-badge&labelColor=000">
-  <a aria-label="License" href="https://github.com/techwithanirudh/shadcn-portfolio/blob/main/LICENSE">
-    <img alt="" src="https://img.shields.io/github/license/techwithanirudh/shadcn-portfolio?style=for-the-badge&labelColor=000">
-  </a>
-</p>
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-## 📋 Table of Contents
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-1. 🤖 [Introduction](#introduction)
-2. 🚀 [Tech Stack](#tech-stack)
-3. ✨ [Features](#features)
-4. 📚 [Getting Started](#getting-started)
-5. ❤️ [Credits](#credits)
+##Our Standards
 
-## <a name="introduction">🤖 Introduction</a>
+Examples of behavior that contributes to a positive environment for our community include:
 
-This is a portfolio template built using Next.JS, Framer Motion and Shadcn/UI.
+Demonstrating empathy and kindness toward other people
+Being respectful of differing opinions, viewpoints, and experiences
+Giving and gracefully accepting constructive feedback
+Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+Focusing on what is best not just for us as individuals, but for the overall community
+Examples of unacceptable behavior include:
 
-## <a name="tech-stack">🚀 Tech Stack</a>
+The use of sexualized language or imagery, and sexual attention or advances of any kind
+Trolling, insulting or derogatory comments, and personal or political attacks
+Public or private harassment
+Publishing others' private information, such as a physical or email address, without their explicit permission
+Other conduct which could reasonably be considered inappropriate in a professional setting
+Enforcement Responsibilities
 
-- Next.js
-- shadcn/ui
-- Framer Motion
-- Tailwind CSS
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-## <a name="features">✨ Features</a>
+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-- ⚡️ Next.js 14 with App Router
-- 📝 Blog
-- 🎨 Tailwind CSS - for styling
-- 🌈 Shadcn UI - accessible UI components
-- 📱 Responsive design
-- 🌗 Light / Dark mode
-- 📈 SEO optimized with meta tags
-- 📊 Sentry (setup required)
-- 🎨 Animations - using Framer Motion
-- 🔨 Husky & Lint Staged - lint and format code before committing
-- 💄 Prettier - code formatting
-- 📞 Contact form (setup required)
-- 🛡️ Cloudflare Turnstile (setup required)
+##Scope
 
-## <a name="getting-started">📚 Getting Started</a>
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
-Please refer to the [getting started guide](./GETTING_STARTED.md) for information on how to configure and run the
-portfolio template.
+##Enforcement
 
-## <a name="credits">❤️ Credits</a>
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement. All complaints will be reviewed and investigated promptly and fairly.
 
-This project wouldn’t be possible without the following open-source projects:
+All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-- MDX Rendering and Logic from [fumadocs](https://github.com/fuma-nama/fumadocs)
-- MDX Data from [content-collections](https://www.content-collections.dev/)
-- UI from [shadcn/ui](https://ui.shadcn.com/)
-- Smooth Scrolling from [Lenis](https://github.com/darkroomengineering/lenis)
-- Turnstile from [react-turnstile](https://github.com/marsidev/react-turnstile)
+##Enforcement Guidelines
 
-This project has been inspired by the following websites:
+Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
-- [honghong.me](https://honghong.me/)
-- [cuberto.com](https://cuberto.com/)
-- [fuma-nama.vercel.app](https://fuma-nama.vercel.app/)
-- [fumadocs.vercel.app](https://fumadocs.vercel.app/)
-- [dennissnellenberg.com](https://dennissnellenberg.com/)
-- [bychristinakosik.com](https://www.bychristinakosik.com/)
-- [danmachado.com](https://www.danmachado.com/)
-- [ui.aceternity.com](https://ui.aceternity.com/)
-- [blog.olivierlarose.com](https://blog.olivierlarose.com/)
-- [props.studiolumio.com](https://props.studiolumio.com/)
-- [dennissnellenberg.com](https://dennissnellenberg.com/)
-- [davidhaz.com](https://davidhaz.com/)
-- [fellipeutaka.vercel.app](https://fellipeutaka.vercel.app/)
-- [a-bd.me](https://www.a-bd.me/)
-- [luge.cool](https://luge.cool/)
-- [nahelmoussi.com](https://nahelmoussi.com/)
-- [boyntonyards.com](https://boyntonyards.com/)
-- [ped.ro](https://ped.ro/)
-- [leerob.io](https://leerob.io/)
-- [portfolio hero challenge](https://x.com/thereal_apk/status/1829874339254321290)
-- [minimal homepage exploration](https://x.com/FonsMans/status/1829510586843152791)
-- [suxmaiya.framer.website](https://x.com/SumaiyaSsa/status/1828451225714471209)
-- [jrhu.me](https://jrhu.me/)
-- [github.com/ismamz/next-transition-router](https://github.com/ismamz/next-transition-router)
-- [jorisbrianti.fr](https://jorisbrianti.fr/)
-- [athos-dark.framer.ai](https://athos-dark.framer.ai/)
+#1. Correction
 
-and more
+Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
-#
-# VishwajitWebpage
-# Portfolio
+Consequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+
+#2. Warning
+
+Community Impact: A violation through a single incident or series of actions.
+
+Consequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
+
+#3. Temporary Ban
+
+Community Impact: A serious violation of community standards, including sustained inappropriate behavior.
+
+Consequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
+
+#4. Permanent Ban
+
+Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
+
+Consequence: A permanent ban from any sort of public interaction within the community.
+
+##Attribution
+
+This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+
+Community Impact Guidelines were inspired by Mozilla's code of conduct enforcement ladder.
+
+For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.
