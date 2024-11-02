@@ -190,5 +190,48 @@ export default [
       "headings": []
     },
     "body": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var i in n)o(e,i,{get:n[i],enumerable:!0})},s=(e,n,i,r)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of f(n))!v.call(e,t)&&t!==i&&o(e,t,{get:()=>n[t],enumerable:!(r=u(n,t))||r.enumerable});return e};var x=(e,n,i)=>(i=e!=null?l(g(e)):{},s(n||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var m=h((D,c)=>{c.exports=_jsx_runtime});var _={};M(_,{default:()=>d});var a=x(m());function p(e){let n={p:\"p\",...e.components};return(0,a.jsx)(n.p,{children:\"This project is an MDM (Mobile Device Management) iOS application designed to remotely manage and secure devices within an organization. It provides features such as device enrollment, policy management, app distribution, and remote monitoring, allowing administrators to manage iOS devices efficiently. The application ensures device compliance, enhances security, and simplifies device provisioning for enterprises.\"})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return y(_);})();\n;return Component;"
+  },
+  {
+    "content": "MyUniAssignments is an iOS application designed to keep university students organized by displaying all upcoming assignment deadlines in an easy-to-use table view, as well as showing their university timetable, complete with classroom locations. I built this app to simplify student life by combining assignment tracking and scheduling into a single platform. Working on this project has helped me strengthen my skills in iOS development using Swift and SwiftUI, while also enhancing my ability to work with back-end integration using Firebase.",
+    "title": "MyUniAssignments",
+    "description": "An iOS app that helps students stay organized by displaying upcoming assignment deadlines in a table view along with their university timetable, including classroom locations.",
+    "website": "https://example.com/",
+    "github": "https://github.com/vishwjit22154/MyUniTasks",
+    "tags": [
+      {
+        "label": "Swift"
+      },
+      {
+        "label": "SwiftUI"
+      },
+      {
+        "label": "iOS"
+      },
+      {
+        "label": "Xcode"
+      },
+      {
+        "label": "Firebase"
+      }
+    ],
+    "date": "2024-05-26",
+    "_meta": {
+      "filePath": "recipe_app.mdx",
+      "fileName": "recipe_app.mdx",
+      "directory": ".",
+      "extension": "mdx",
+      "path": "recipe_app"
+    },
+    "toc": [],
+    "structuredData": {
+      "contents": [
+        {
+          "heading": "",
+          "content": "MyUniAssignments is an iOS application designed to keep university students organized by displaying all upcoming assignment deadlines in an easy-to-use table view, as well as showing their university timetable, complete with classroom locations. I built this app to simplify student life by combining assignment tracking and scheduling into a single platform. Working on this project has helped me strengthen my skills in iOS development using Swift and SwiftUI, while also enhancing my ability to work with back-end integration using Firebase."
+        }
+      ],
+      "headings": []
+    },
+    "body": "var Component=(()=>{var g=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var w=(n,i)=>()=>(i||n((i={exports:{}}).exports,i),i.exports),b=(n,i)=>{for(var e in i)s(n,e,{get:i[e],enumerable:!0})},l=(n,i,e,a)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let t of u(i))!y.call(n,t)&&t!==e&&s(n,t,{get:()=>i[t],enumerable:!(a=p(i,t))||a.enumerable});return n};var f=(n,i,e)=>(e=n!=null?g(h(n)):{},l(i||!n||!n.__esModule?s(e,\"default\",{value:n,enumerable:!0}):e,n)),k=n=>l(s({},\"__esModule\",{value:!0}),n);var c=w((j,r)=>{r.exports=_jsx_runtime});var x={};b(x,{default:()=>d});var o=f(c());function m(n){let i={p:\"p\",...n.components};return(0,o.jsx)(i.p,{children:\"MyUniAssignments is an iOS application designed to keep university students organized by displaying all upcoming assignment deadlines in an easy-to-use table view, as well as showing their university timetable, complete with classroom locations. I built this app to simplify student life by combining assignment tracking and scheduling into a single platform. Working on this project has helped me strengthen my skills in iOS development using Swift and SwiftUI, while also enhancing my ability to work with back-end integration using Firebase.\"})}function d(n={}){let{wrapper:i}=n.components||{};return i?(0,o.jsx)(i,{...n,children:(0,o.jsx)(m,{...n})}):m(n)}return k(x);})();\n;return Component;"
   }
 ];
