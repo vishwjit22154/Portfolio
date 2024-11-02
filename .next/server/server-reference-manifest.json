@@ -1,0 +1,30 @@
+{
+  "node": {
+    "52d0b2da137fbffb7583296eb308f032489cbef3": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fhvishwajit%2FDesktop%2Fpo%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_0%22%2C%22contactSubmit%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "b362983886d4929dd3e47f91156ac238cd1ad2ed": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fhvishwajit%2FDesktop%2Fpo%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_0%22%2C%22contactSubmit%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "fc58b5b52e7fd1b88874f3eb318b1895a515d862": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fhvishwajit%2FDesktop%2Fpo%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_0%22%2C%22contactSubmit%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "8ZBVenR8yEzJ18Mp6zpPHoY90U56l1Xiew/jRv8ZWlk="
+}
