@@ -68,7 +68,7 @@ export default [
         "label": "Apache"
       },
       {
-        "label": "BootStrao"
+        "label": "BootStrap"
       }
     ],
     "date": "2024-05-26",
