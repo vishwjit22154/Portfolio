@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/carousel';
 import TestimonialCard from './testimonial-card';
 
-import { testimonials } from '@/components/sections/testimonials/config';
+//import { testimonials } from '@/components/sections/testimonials/config';
 
 function Testimonials() {
   return (
@@ -32,24 +32,10 @@ function Testimonials() {
           </div>
 
           <div className="flex items-center justify-center overflow-hidden lg:px-12">
-            <Carousel className="w-full">
-              <CarouselContent>
-                {testimonials.map((testimonial, index) => (
-                  <CarouselItem key={`testimonial_${index}`}>
-                    <div className="h-full p-1">
-                      <TestimonialCard
-                        name={testimonial.name}
-                        image={testimonial.image}
-                        username={testimonial.username}
-                        testimonial={testimonial.testimonial}
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
+            
               <CarouselPrevious />
               <CarouselNext />
-            </Carousel>
+            
           </div>
         </div>
       </div>
