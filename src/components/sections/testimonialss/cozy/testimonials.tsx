@@ -12,7 +12,7 @@ import TestimonialCard from './testimonial-card';
 
 import Reveal from '@/components/reveal';
 
-import { testimonials } from '@/components/sections/testimonials/config';
+//import { testimonials } from '@/components/sections/testimonials/config';
 
 function Testimonials() {
   return (
@@ -51,23 +51,7 @@ function Testimonials() {
               }}
               className="w-full"
             >
-              <CarouselContent>
-                {testimonials.map((testimonial, index) => (
-                  <CarouselItem
-                    key={`testimonial_${index}`}
-                    className="md:basis-1/2 lg:basis-1/3"
-                  >
-                    <div className="h-full p-1">
-                      <TestimonialCard
-                        name={testimonial.name}
-                        image={testimonial.image}
-                        username={testimonial.username}
-                        testimonial={testimonial.testimonial}
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
+              
               <CarouselPrevious />
               <CarouselNext />
             </Carousel>

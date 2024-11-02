@@ -13,12 +13,12 @@ import TestimonialCard from './testimonial-card';
 
 import Reveal from '@/components/reveal';
 
-import { testimonials } from '@/components/sections/testimonials/config';
+//import { testimonials } from '@/components/sections/testimonials/config';
 
 import Autoplay from 'embla-carousel-auto-scroll';
 
-const firstRow = testimonials.slice(0, testimonials.length / 2);
-const secondRow = testimonials.slice(testimonials.length / 2);
+//const firstRow = testimonials.slice(0, testimonials.length / 2);
+//const secondRow = testimonials.slice(testimonials.length / 2);
 
 function Testimonials() {
   return (
@@ -64,23 +64,7 @@ function Testimonials() {
             ]}
             className="w-full"
           >
-            <CarouselContent>
-              {firstRow.map((testimonial, index) => (
-                <CarouselItem
-                  key={`testimonial_${index}`}
-                  className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
-                >
-                  <div className="h-full p-1">
-                    <TestimonialCard
-                      name={testimonial.name}
-                      image={testimonial.image}
-                      username={testimonial.username}
-                      testimonial={testimonial.testimonial}
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
+            
           </Carousel>
           <Carousel
             opts={{
@@ -99,23 +83,7 @@ function Testimonials() {
             ]}
             className="w-full"
           >
-            <CarouselContent>
-              {secondRow.map((testimonial, index) => (
-                <CarouselItem
-                  key={`testimonial-reverse_${index}`}
-                  className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
-                >
-                  <div className="h-full p-1">
-                    <TestimonialCard
-                      name={testimonial.name}
-                      image={testimonial.image}
-                      username={testimonial.username}
-                      testimonial={testimonial.testimonial}
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
+            
           </Carousel>
 
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white dark:from-background"></div>
