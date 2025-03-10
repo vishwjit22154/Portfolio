@@ -2,8 +2,8 @@ import {
   Header,
   Hero,
   About,
-  Skills,
   Experience,
+  Skills,
   //Testimonials,
   Projects,
   Contact,
@@ -21,9 +21,9 @@ export default function Home() {
         <main className="flex-1">
           <Hero />
           <About />
+          <Experience />
           <Skills />
           <Projects />
-          <Experience />
           {/*<Testimonials />*/}
           <Contact />
           <Footer />

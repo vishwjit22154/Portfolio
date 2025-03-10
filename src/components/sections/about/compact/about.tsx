@@ -16,7 +16,7 @@ function About() {
             </h2>
             <div className="space-y-4">
               <p className="max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I'm an IT professional with experience as a developer and IT support intern. Passionate about cybersecurity and system design, I thrive on optimizing performance and solving complex problems. I enjoy working with a variety of technologies, from software development to network security, always eager to learn and take on new challenges.
+              I'm an Graduate from UTS | Junior Developer at Pebble AI. Passionate about Cybersecurity and AI, I thrive on optimizing performance and solving complex problems. I enjoy working with a variety of technologies, from Software Development to Network Security, always eager to learn and take on new challenges.
               </p>
               <div className="flex gap-2">
                 
