@@ -1,64 +1,59 @@
 ---
-title: Hello World
-description: You've seen so many videos and blogs mention 'Hello World', but do you really know what it means?
+title: "How Quantum Computing Could Break Cryptography"
+description: "What if the encryption that keeps your online banking safe could be cracked in seconds? Let's explore quantum computing’s impact on cybersecurity."
 date: 2024-09-20
-author: John Doe
+author: "Vishwajit Harish"
 ---
 
-# Hello World
+# How Quantum Computing Could Break Cryptography
 
-Welcome to the world of programming! If you're new here, "Hello World" is often the very first program that developers write when learning a new language or tool. It might seem simple, but this small program represents something much larger—it's the first step in your coding journey!
+## Summary  
 
-## What is "Hello World"?
+What if the encryption that keeps your online banking safe could be cracked in seconds? Imagine a world where your private emails, blockchain wallets, and even government secrets aren’t secure anymore. Well, quantum computing might just make that a reality, and it’s closer than you think.  
 
-"Hello World" is essentially a way to confirm that everything is working as expected. When you write and run this program, it outputs the phrase "Hello, World!" to the screen, showing that your environment is set up correctly. Every programming language has its own syntax for doing this, and it's the perfect way to get comfortable with the basics.
+Quantum computers aren’t your average machines. They’re being built to solve problems that would take regular computers centuries—like cracking the encryption we rely on every day. Algorithms like **RSA, ECC, and AES** are the locks keeping our digital world secure. But with tech giants like **Microsoft** working on **Majorana 1 quantum processors**, those locks might not hold much longer.  
 
-### A Simple Example in Python:
+## The Problem: Encryption Vulnerability  
 
-```python
-print("Hello, World!")
-```
+1. **Breaking RSA Encryption** – Once quantum computers become powerful enough, they will break RSA encryption, exposing sensitive data.  
+2. **Data Privacy Risks** – Hackers may already be storing encrypted data today, intending to decrypt it in the future.  
+3. **Regulatory and Ethical Concerns** – Governments and large corporations could monopolize quantum computing, leading to cyber warfare, surveillance, and espionage.  
 
-That's it! Running this code will output the text to the console, and boom—you've just written your first Python program.
+## Understanding RSA and Shor’s Algorithm  
 
-### Why It Matters
+RSA encryption is built on a simple idea: multiplying two huge prime numbers creates a code that’s nearly impossible to reverse engineer. Today’s computers would take **millions of years** to crack it.  
 
-The simplicity of "Hello World" might make it seem unimportant, but it's a powerful moment. You're not just typing random text; you're communicating with your machine, telling it what to do. And when that first message appears, you're officially a programmer.
+But quantum computing introduces **Shor’s Algorithm**, which can **factor large numbers exponentially faster**, making RSA obsolete.  
 
-### Other Languages, Same Hello
+### Where is RSA Used?  
 
-Here’s how you’d write "Hello World" in some other languages:
+- **Online Banking & Shopping:** Your card details are stored using RSA.  
+- **Secure Websites:** The padlock icon in your browser represents RSA encryption.  
+- **Email Encryption:** Governments and companies use it for secure communication.  
+- **Software Updates:** It ensures downloads from Microsoft or Apple are legitimate.  
 
-**JavaScript:**
+### The Future: Quantum-Safe Cryptography  
 
-```javascript
-console.log('Hello, World!');
-```
+If RSA falls, hackers could **steal sensitive data, fake digital signatures, or even manipulate financial transactions**.  
 
-**C++:**
+Quantum computers **are advancing fast**, and even encrypted data today could be **saved and cracked later**—a ticking time bomb.  
 
-```cpp
-#include <iostream>
-using namespace std;
+### The Solution: Post-Quantum Cryptography (PQC) & Quantum Key Distribution (QKD)  
 
-int main() {
-    cout << "Hello, World!";
-    return 0;
-}
-```
+To protect against quantum threats, we must transition to **quantum-safe encryption** such as:  
 
-**Java:**
+- **Post-Quantum Cryptography (PQC)** – Algorithms resistant to quantum attacks.  
+- **Quantum Key Distribution (QKD)** – A cryptographic method that uses quantum mechanics for secure communication.  
 
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
+## Conclusion  
 
-### Moving Beyond Hello World
+Quantum computing’s potential to break cryptography isn’t sci-fi—it’s a **real, looming challenge**. With algorithms like **Shor’s** and hardware like **Microsoft’s Majorana 1**, our digital security is at risk.  
 
-After mastering "Hello World," the next steps are learning more about syntax, control flow, data structures, and algorithms. It’s the start of an exciting journey where you’ll build complex programs, solve real-world problems, and maybe even contribute to open-source projects.
+We must **act fast** and transition to **quantum-resistant encryption**. The next time you log into your bank account, just think—how safe is your data?  
 
-So go ahead—write your "Hello World" program, and welcome to the coding community!
+## References  
+
+1. Microsoft. (2025). [Majorana 1: A Leap Towards Scalable Quantum Computing](https://www.businessinsider.com/satya-nadella-microsoft-new-majorana-chip-quantum-breakthrough)  
+2. Shor, P. W. (1994). [Algorithms for Quantum Computation: Discrete Logarithms and Factoring](https://csrc.nist.gov/projects/post-quantum-cryptography)  
+3. National Institute of Standards and Technology. [Post-Quantum Cryptography Project](https://csrc.nist.gov/projects/post-quantum-cryptography)  
+
